@@ -103,19 +103,43 @@ class MainPage(webapp.RequestHandler):
   def get(self):
     
     config = {
-      'who': 'Paul',
+      'who': 'Richard',
       'stops': [
         {
-          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=N&d=N__IB3&s=7318',
-          'distance': 6
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=41&d=41_IB1&s=6767',
+          'distance': 0
         },
         {
-          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=J&d=J__IB2&s=4006',
-          'distance': 8
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=41&d=41_OB2&s=6766',
+          'distance': 0
         },
         {
-          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=KT&d=KT__IB1&s=5726',
-          'distance': 10
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=45&d=45_IB2&s=6767',
+          'distance': 0
+        },
+        {
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=45&d=45_OB4&s=6766',
+          'distance': 0
+        },
+        {
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=19&d=19_OB1&s=6004',
+          'distance': 0
+        },
+        {
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=47&d=47_OB&s=6832',
+          'distance': 0
+        },
+        {
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=49&d=49_OB2&s=6832',
+          'distance': 0
+        },
+        {
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=60&d=60__IB2&s=5089',
+          'distance': 0
+        },
+        {
+          'url': 'http://www.nextbus.com/wireless/miniPrediction.shtml?a=sf-muni&r=22&d=22_OB2&s=6754',
+          'distance': 0
         }
       ]
     }

@@ -1,7 +1,7 @@
 {% extends "_layout.html" %}
 
 {% block content %}
-  <h1>When should {{who}} leave for work?</h1>
+  <h1>When should {{who}} leave home?</h1>
   <ul>
   {% for train in trains %}
     {% if train.is_past %}
@@ -24,5 +24,6 @@
     {% endif %}
   {% endfor %}
   </ul>
+  <p class="about">Customized for <a href="http://rcrowley.org/">Richard Crowley</p>
   <p class="about"><a href="/about/">Uh? What is this? Who is Paul?</a></p>
 {% endblock %}
